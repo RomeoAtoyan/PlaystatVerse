@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.banner_left {
+    width: 60%;
+    background-color: aliceblue;
+}
+
+.banner_right {
+    width: 40%;
+    background-image: url(./gtasalogo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#sa_png {
+    object-fit: contain;
+    height: 47em;
+    position: relative;
+    top: 6.25em;
+    right: 20em;
+    z-index: 2;
+}
+
+.gta {
+    margin-top: 18.75em;
+}
+
+.gta h2 {
+    font-size: 2.5em;
+    color: black;
+}
+
+.gta p {
+    font-size: 1.9em;
+    color: black;
+}
+
+#game_trailer {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 47em ;
+    opacity: 15%;
+}

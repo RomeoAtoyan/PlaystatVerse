@@ -1,0 +1,52 @@
+.compatibility {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+.comp_section {
+    padding-top: 15px;
+  color: black;
+
+}
+
+.comp_section h1 {
+  color: black;
+}
+
+.comp_section h3 {
+  color: black;
+}
+
+.comp_section span {
+  font-weight: bolder;
+  font-size: larger;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.display_section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 10em;
+}
+
+.fa-playstation {
+  padding: 30px;
+  border-radius: 7px;
+  width: fit-content;
+  height: fit-content;
+  transition: .3s ease-in;
+  background: linear-gradient(45deg, white,yellow,red);
+  color: black;
+}
+
+.fa-playstation:hover {
+  background: linear-gradient(45deg, blue , red);
+  color: white;
+  cursor: pointer;
+  transform: translateY(-30px);
+}
+

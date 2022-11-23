@@ -1,0 +1,22 @@
+.page_buttons_container {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+
+}
+
+.page_button {
+  width: 1.5em;
+  background-color: black;
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 1px;
+  transition: 0.2s ease-in;
+}
+
+.page_button:hover {
+  background-color: yellow;
+  color: black;
+}

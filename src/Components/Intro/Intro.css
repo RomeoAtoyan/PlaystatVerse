@@ -1,0 +1,59 @@
+*{
+    color: black;
+}
+
+.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__text {
+    line-height: 90px;
+    letter-spacing: 10px;
+}
+
+.intro__text h1 {
+    color: black;
+    text-align: center;
+    font-size: 100px;
+}
+
+.intro__text p {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+}
+
+.intro_text span {
+    background-color: black;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+#red {
+   color: #DE0029;
+}
+
+#blue {
+    color: #326DB3;
+}
+
+#aqua {
+    color:  #00AA9E;
+}
+
+#yellow {
+    color: #F3C202;
+}
+
+.sonyElogo {
+    object-fit: contain;
+    height: 400px;
+}
+
+.intro__logo {
+    display: flex;
+    justify-content: center;
+}

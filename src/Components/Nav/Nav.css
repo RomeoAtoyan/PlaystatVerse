@@ -1,0 +1,50 @@
+.nav {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 15;
+}
+
+.nav h1 {
+
+}
+
+:root{
+    --overlay-color-1: #DE0029;
+    --overlay-color-2: #326DB3;
+    --overlay-color-3: #00AA9E;
+    --overlay-color-4: #F3C202;
+    --anim-duration: 1s;
+}
+
+.colored-border {
+    opacity: 0.8;
+    background: none;
+}
+
+.colored-border:after,
+.colored-border:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 6px;
+    top: 60px; bottom: 0; left: 0; right: 0;
+}
+
+.colored-border:before {
+    background: linear-gradient(135deg, var(--overlay-color-1) 0%, var(--overlay-color-2) 100%);
+    animation: OpacityAnim var(--anim-duration) ease-in-out 0s infinite alternate;
+}
+
+.colored-border:after {
+    background: linear-gradient(135deg, var(--overlay-color-3) 0%, var(--overlay-color-4) 100%);
+    animation: OpacityAnim var(--anim-duration) ease-in-out calc(-1 * var(--anim-duration)) infinite alternate;
+}
+
+@keyframes OpacityAnim {
+    0%{opacity: 1.0}
+    100%{opacity: 0.0}
+}

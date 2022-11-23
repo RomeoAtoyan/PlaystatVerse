@@ -1,0 +1,77 @@
+.banner {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner__left {
+    width: 50%;
+}
+
+.ps2-title > h1 {
+    padding: 50px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 5px;
+}
+
+.ps2-title {
+    display: flex;
+    justify-content: center;
+}
+
+.ps2-title img {
+    object-fit: contain;
+    width: 100px;
+}
+
+.ps__specs {
+    background-color: white;
+    width: 50%;
+    height: max-content;
+    margin: 0 auto;
+}
+
+.ps__specs > h1 {
+    text-align: center;
+}
+
+.banner__right {
+    width: 50%;
+}
+
+.spec__table {
+    width: 50%;
+    margin: 0 auto;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.specs {
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.specs > p {
+    transition: all .3s ease-in;
+}
+
+.specs > p:hover {
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.ps2-console {
+    transition: all .7s ease-in;
+}
+
+.ps2-console:hover {
+    transform: scale(1.2);
+}
